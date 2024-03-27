@@ -6,14 +6,14 @@ const backButton = document.getElementById("back"); // Get the back button eleme
 const enableDarkMode = () => {
     document.body.classList.add("darkMode");
     localStorage.setItem("darkMode", "enabled");
-    displayImg.src = "/assets/Images/blog-image.png"; // Change background image to dark mode
+    displayImg.src = "./assets/Images/blog-image.png"; // Change background image to dark mode
 }
 
 // Function to disable dark mode
 const disableDarkMode = () => {
     document.body.classList.remove("darkMode");
     localStorage.removeItem("darkMode"); // Use removeItem instead of setting to null
-    displayImg.src = "/assets/Images/blog-image.png"; // Change background image to light mode
+    displayImg.src = "./assets/Images/blog-image.png"; // Change background image to light mode
 }
 
 // Event listener for dark mode toggle

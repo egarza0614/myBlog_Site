@@ -7,17 +7,14 @@
 }
 
 .darkMode { /* To switch between light and dark mode*/
-    --bg-color: #181818; /* darker background color */
-    --second-bg-color: #121212; /* darker second background color */
+    --bg-color: #353434; /* darker background color */
+    --second-bg-color: #383333; /* darker second background color */
     --text-color: #ffffff;
-    --main-color: #181818;
-    background-image: var(--background-img-light);
+    --main-color: #353434;
+    --background-image: var(--background-img-light);
+    
 } 
 
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
 
 body {
     margin: 0;
@@ -30,7 +27,6 @@ body {
 
 p, h3 {
     position: relative;
-    padding: 10px;
     font-size: 16px;
     color: var(--text-color);
     font-weight: 600;
@@ -96,7 +92,7 @@ textarea {
 
 .center-line { /* adjust the double centerline */
     position: absolute;
-    left: 50%;
+    left: 37%;
     top: 91px;
     bottom: -425px;
     width: 0;
@@ -111,7 +107,6 @@ textarea {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    min-height: 127vh;
 }
 
 .display-container {
@@ -119,11 +114,11 @@ textarea {
     width: 100%;
     text-align: left;
     flex-wrap: wrap;
-    min-height: calc(80vh - 80px);
+    /* min-height: calc(80vh - 80px); */
 }
 
 .display-img {
-    max-width: 100%;
+    max-width:80%;
 } 
 
 footer h3 {
