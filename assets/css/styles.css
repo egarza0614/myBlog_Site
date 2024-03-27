@@ -3,7 +3,7 @@
     --second-bg-color: #f3f0f0;
     --text-color: #0e0b0b;
     --main-color: #f8f7f5;
-    --background-img-light: url('../images/small_star.png')
+    --background-img-light: url('./images/small_star.png')
 }
 
 .darkMode { /* To switch between light and dark mode*/
