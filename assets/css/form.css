@@ -88,9 +88,9 @@ input[type="text"] {
     outline: none;
     background: none;
     color: black;
-    margin-top: 5px;
+    margin-top: 20px;
     border-radius: 8px;
-    width: 489px;
+    width: 435px;
     height: 13px;
     padding: 10px 15px;
     letter-spacing: 0.01em;
@@ -117,10 +117,10 @@ label {
     font-size: 25px; /* reduce username, title, content */
     font-weight: 400;
     box-sizing: border-box;
-    padding: 10px 10px;
+    padding: 25px 10px;
     display: block;
     position: absolute;
-    margin-top: -48px; /* help increase or reduce margin */
+    margin-top: -35px; /* help increase or reduce margin */
     z-index: 2;
     pointer-events: none;
     transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);
