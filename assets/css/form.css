@@ -20,7 +20,6 @@
     padding: 20px 15px;
     border-radius: 10px;
     color: white;
-    /* letter-spacing: 0.01em; */
     position: relative;
     z-index: 1;
     cursor: pointer;
@@ -110,13 +109,11 @@ input[type="text"]:valid ~ label {
     text-transform:capitalize;
     font-style:normal;
     transform: translate(5px, -35px) scale(0.6);
-} */
+}
 
 label {
     transform-origin: left center;
     color: black;
-    font-weight: 100;
-    letter-spacing: 0.01em;
     font-size: 25px; /* reduce username, title, content */
     font-weight: 400;
     box-sizing: border-box;

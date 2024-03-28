@@ -3,7 +3,6 @@
     --second-bg-color: #f3f0f0;
     --text-color: #0e0b0b;
     --main-color: #f8f7f5;
-    /* --background-img-light: url('./images/small_star.png') */
 }
 
 .darkMode { /* To switch between light and dark mode*/
@@ -12,19 +11,22 @@
     --text-color: #ffffff;
     --main-color: #353434;
     /* --background-image: var(--background-img-light); */
-    
 } 
-
 
 body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--second-bg-color);
-    
+    background-color: var(--second-bg-color);    
 }
 
+inquiry {
+    position: relative;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 600;
+}
 p, h3 {
     position: relative;
     font-size: 16px;
@@ -73,7 +75,7 @@ textarea {
     font-weight: 600;
 }
 
-.botton-group {
+.button-group {
     display: flex;
     justify-content: space-between;
     align-items: center;
