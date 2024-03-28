@@ -40,7 +40,7 @@ If you view the footer, you are presented with a link to the developer's portfol
 
 The following image shows the web application's appearance:
 
-![portfolio mockup](./assets/images/mockup_myBlog.png)
+![portfolio mockup](./assets/Images/mockup_myBlog.png)
 
 ## License
 
