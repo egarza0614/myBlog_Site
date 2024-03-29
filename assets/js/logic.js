@@ -32,8 +32,6 @@ darkModeToggle.addEventListener("click", () => {
 const currentPage = window.location.pathname.split("/").pop();
 if (currentPage === "blog.html") {
     backButton.style.display = "block";
-// } else {
-    // backButton.style.display = "none";
 }
 
 // Event listener for back button click
