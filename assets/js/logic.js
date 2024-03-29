@@ -32,7 +32,7 @@ darkModeToggle.addEventListener("click", () => {
 const currentPage = window.location.pathname.split("/").pop();
 if (currentPage === "blog.html") {
     backButton.style.display = "block";
-} else {
+// } else {
     // backButton.style.display = "none";
 }
 

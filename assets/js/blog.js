@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function displayBlogPosts() {
+        if (currentPage === "blog.html") {
         blogList.innerHTML = ""; // Clear previous posts
 
         const blogPosts = getBlogPostsFromLocalStorage();
