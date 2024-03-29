@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const blogList = document.getElementById("blog-list");
-    
+
     function getBlogPostsFromLocalStorage() {
         return JSON.parse(localStorage.getItem("posts")) || [];
     }
@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
             blogList.appendChild(postContainer);
         });
     }
-
 
     function createPostElement(post, index) {
         const postContainer = document.createElement("div");
@@ -59,5 +58,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     displayBlogPosts();
-    
 });
