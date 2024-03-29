@@ -39,4 +39,4 @@ if (backButton) {
 backButton.addEventListener("click", () => {
     window.location.href = "index.html"; // Navigate back to index.html
 })
-};
+}

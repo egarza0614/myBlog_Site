@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const blogList = document.getElementById("blog-list");
-
+    
     function getBlogPostsFromLocalStorage() {
         return JSON.parse(localStorage.getItem("posts")) || [];
     }
 
     function displayBlogPosts() {
-        if (currentPage === "blog.html") {
+    if (currentPage === "blog.html") {
         blogList.innerHTML = ""; // Clear previous posts
 
         const blogPosts = getBlogPostsFromLocalStorage();
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             blogList.appendChild(postContainer);
         });
     }
+}
 
     function createPostElement(post, index) {
         const postContainer = document.createElement("div");
@@ -59,4 +60,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     displayBlogPosts();
+    
 });

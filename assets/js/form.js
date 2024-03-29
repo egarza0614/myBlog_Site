@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const posts = JSON.parse(localStorage.getItem("posts")) || []; // Check if localStorage already has posts data
         posts.push(post);  // Add the new post to the posts array
         localStorage.setItem("posts", JSON.stringify(posts));  // Store the updated posts array in localStorage
-
         window.location.href = "blog.html"; // Redirect to the blog page
     });
 });
